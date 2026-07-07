@@ -1,0 +1,55 @@
+[
+  {
+    "token": "ACCESS TOKEN",
+    "user": {
+      "email": "email@email.com",
+      "id": "teneo_user_id (uuid)"
+    },
+    "nodes": [
+      {
+        "key": "teneo1",
+        "hostname": "os:PC-NAME1",
+        "node_api_key": "node_apiKey",
+        "proxy": "http://user:pass@host:port"
+      },
+      {
+        "key": "teneo2",
+        "hostname": "os:PC-NAME2",
+        "node_api_key": "node_apiKey",
+        "proxy": "http://user:pass@host:port"
+      }
+    ],
+    "claim": {
+      "last_boost_at": "2026-07-06T20:32:24.812Z",
+      "beacon_power": 300,
+      "last_result": {
+        "success": true,
+        "rawFragments": 1800,
+        "fragmentsEarned": 5200,
+        "beaconPower": 300,
+        "nextBoostAt": "2026-07-07T04:32:24.812Z",
+        "consecutiveBoosts": 45,
+        "seasonFragments": 11804.8
+      },
+      "claim_node_key": "teneo2",
+      "stats": {
+        "beaconPower": 300,
+        "consecutiveBoosts": 45,
+        "totalFragments": 33333.3,
+        "seasonFragments": 62804.8,
+        "unclaimedFragments": 800,
+        "lastFragmentCreditAt": "2026-07-07T00:22:25.288Z",
+        "connectedNodes": 20,
+        "fragmentsPerHour": 200,
+        "lastBoostAt": "2026-07-06T20:32:24.812Z",
+        "nextBoostAt": "2026-07-07T04:32:24.812Z",
+        "cooldownRemaining": 13048,
+        "earlyBoostFee": 23,
+        "decayWarning": null,
+        "season": 4,
+        "seasonDaysRemaining": 48
+      },
+      "stats_updated_at": "2026-07-07T00:56:26.216Z"
+    }
+  }
+]
