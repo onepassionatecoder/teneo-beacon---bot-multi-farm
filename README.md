@@ -1,6 +1,6 @@
 # Teneo Beacon Automation Toolkit
 
----
+----
 
 ## Overview
 
